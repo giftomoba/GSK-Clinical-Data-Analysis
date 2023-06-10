@@ -50,6 +50,8 @@ could predict whether the patient will respond or not to treatment.
 
 
 
+![response DRUG](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/5bd66406-d605-4dcc-8a89-7fcd13223a88)
+![response first](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/6a052337-2721-4a23-bfe4-5645b85aa103)
 
 
 ### Link to the project jupyter notebook:
