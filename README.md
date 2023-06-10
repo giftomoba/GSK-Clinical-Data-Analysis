@@ -55,8 +55,8 @@ could predict whether the patient will respond or not to treatment.
 - Patients reponded well to treatment with DRUGS compared to those who took the CONTROL treatment.
 
 ### Link to the project files:
-Jupyter notebook: https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
-Notebook PDF format: https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20pdf%20format.pdf
+##### Jupyter notebook: https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
+##### Notebook PDF format: https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20pdf%20format.pdf
 
 ## Overall Result From Analysis:
 - Patients in treatment group 'DRUG' has an overall positive response while the 'CONTROL' group responded poorly.
