@@ -70,5 +70,8 @@ could predict whether the patient will respond or not to treatment.
 - However, order to make the treatment more effective and to get the best result, patients should be informed or advised to reduce their protein intake, perhaps for few days leading to and after taking the drug. This would also help improve the effect and performance of the drug
 
 ### MODEL PERFORMANCE SUMMARY:
+![github clssification](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/77c5d3ac-c727-4c9b-b4f1-800930e932e6)
+![confusion matrix github](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/100be1b7-c655-4426-a2f9-079935d86ec3)
+
 - Although Logistic Regression performed well in identifying whether or not a patient responds, it had about 84% recall, which means it has the tendency to misclassify 16% of the patients as responding to treatment, whereas they did not.
 - It is highly recommended that the model be improved upon for better performance or more test carried out on patient to determine their response to the treatment.
