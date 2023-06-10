@@ -42,6 +42,16 @@ could predict whether the patient will respond or not to treatment.
 - trt_grp: Whether the patient is receiving the new drug or the standard of care (control)
 - Response: Whether the patient responded or not (Yes[Y]/No [N])
 
+## Key Patterns Identified:
+
+
+![weight protein](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/e1fba93e-c098-4e53-bcc6-92bb7264bf82)
+
+
+
+
+
+
 ### Link to the project jupyter notebook:
 https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
 
