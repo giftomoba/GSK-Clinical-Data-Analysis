@@ -43,17 +43,14 @@ could predict whether the patient will respond or not to treatment.
 - Response: Whether the patient responded or not (Yes[Y]/No [N])
 
 ## Key Patterns Identified:
-
-
+#### 1. Protein Concentration and Response:
 ![weight protein](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/e1fba93e-c098-4e53-bcc6-92bb7264bf82)
-
-
-
-
+- Patients with lower Protein levels in their blood Responded to the treatment across both treatment groups (DRUG & CONTROL).
+- 
+#### 2. Response statistics for both Treatment types:
 ![response DRUG](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/5bd66406-d605-4dcc-8a89-7fcd13223a88)
 ![CONTROL 3](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/1f57f916-8ac8-479e-8455-09d8537a78d0)
-
-
+- Patients reponded well to treatment with DRUGS compared to those who took the CONTROL treatment.
 
 ### Link to the project jupyter notebook:
 https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
