@@ -1,2 +1,61 @@
 # GSK-Clinical-Data-Analysis
-The main aim of this project is to identify hidden patterns in a clinical data and determine the best predictors of a patient's response to treatment.
+
+## Description
+### Context
+A new cancer treatment for solid tumours (Miraculon-B) is in development at GSK, data has 
+been collected in our recent clinical trial comparing Miraculon-B to the current standard of 
+care (i.e., referred to as the ‘control’). The trial has completed, and we need your help to
+analyse the data and assess the effectiveness of Miraculon-B. To do this we need you to 
+compare Miraculon-B to the standard of care, and explore how different patient sub-groups
+may benefit differently from treatment.
+
+## Objective
+To examine and analyse the data provided to understand which subgroups of 
+patients are benefiting more from the treatment. 
+
+## Task:
+- Do patients that take the GSK drug respond more to treatment compared to those in the control group? 
+- Can the age, weight or protein concentration of patients predict whether they will respond better to treatment or not?
+- Additional Task: Build a Supervised Machine Learning model that can predict whether a patient will respond to a treatment or not.
+
+## Data Description
+The dataset clinical-study.csv contains 772 rows (patients) and 7 columns (variables). The 
+“response” column is our target showing whether the patient has responded to treatment 
+(“Yes”) or not (“No”). In solid tumours, response is based on whether tumours shrink, stay the 
+same, or get bigger. If a patient has a tumour that is shrinking, they are classified as 
+responder, if they have a tumour that stays the same or gets bigger, they are classified as 
+non-responder. Again, please note that this is not real GSK data, but it is similar to the type of 
+data and the type of questions we explore every day!
+The dataset protein-levels.csv contains 768 rows and 2 columns, The protein_concentration
+column shows the concentration of a protein that has been identified as a potential 
+predictive biomarker for solid tumours. Predictive cancer biomarkers can be used to identify 
+the patients who are or who are not likely to derive benefit from specific therapeutic 
+approaches. In this analysis we want to investigate whether the concentration of the protein 
+could predict whether the patient will respond or not to treatment. 
+
+## Data Dictionary
+- subject_id: Patient ID
+- sex: Whether the patient is male or female
+- age: The age of the patient 
+- weight: The weight of the patient 
+- height: The height of the patient
+- trt_grp: Whether the patient is receiving the new drug or the standard of care (control)
+- Response: Whether the patient responded or not (Yes[Y]/No [N])
+
+### Link to the project jupyter notebook:
+https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
+
+## Overall Result From Analysis:
+- Patients in treatment group 'DRUG' has an overall positive response while the 'CONTROL' group responded poorly.
+- The protein concentration in the blood played a key role in determining the response of a patient in both DRUG and CONTROL treatment groups. 
+- Protein Levels of most patients with no response ranges between 112 and 155 ug/L.
+- Protein Levels of most patients with positive response ranges between 91 and 116 ug/L.
+- In summary, the lower the amount of protein concentration in the blood, the better the chances of both treatment groups having a positive response and vice versa.
+
+### RECOMMENDATION:
+- Since the drugs performed better overall, it can be taken to the next level in trials, if need be, and more improvement carried out to increase its positive effect on patient.
+- However, order to make the treatment more effective and to get the best result, patients should be informed or advised to reduce their protein intake, perhaps for few days leading to and after taking the drug. This would also help improve the effect and performance of the drug
+
+### MODEL PERFORMANCE SUMMARY:
+- Although Logistic Regression performed well in identifying whether or not a patient responds, it had about 84% recall, which means it has the tendency to misclassify 16% of the patients as responding to treatment, whereas they did not.
+- It is highly recommended that the model be improved upon for better performance or more test carried out on patient to determine their response to the treatment.
