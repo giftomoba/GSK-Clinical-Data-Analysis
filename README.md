@@ -45,15 +45,18 @@ could predict whether the patient will respond or not to treatment.
 ## Key Patterns Identified:
 #### 1. Protein Concentration and Response:
 ![weight protein](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/e1fba93e-c098-4e53-bcc6-92bb7264bf82)
-- Patients with lower Protein levels in their blood Responded to the treatment across both treatment groups (DRUG & CONTROL).
-- 
+![Cat plot 1](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/46e2adaf-79a2-48e5-899f-c6c3e9cf2ae8)
+
+- Most of the patients with lower Protein levels (approximately below 120 ug/L) in their blood Responded to the treatment across both treatment groups (DRUG & CONTROL).
+
 #### 2. Response statistics for both Treatment types:
 ![response DRUG](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/5bd66406-d605-4dcc-8a89-7fcd13223a88)
 ![CONTROL 3](https://github.com/giftomoba/GSK-Clinical-Data-Analysis/assets/124467481/1f57f916-8ac8-479e-8455-09d8537a78d0)
 - Patients reponded well to treatment with DRUGS compared to those who took the CONTROL treatment.
 
-### Link to the project jupyter notebook:
-https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
+### Link to the project files:
+Jupyter notebook: https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20Omeimen%20Ohiomoba.ipynb
+Notebook PDF format: https://github.com/giftomoba/GSK-Clinical-Data-Analysis/blob/main/GSK%20Task%20A%20-%20pdf%20format.pdf
 
 ## Overall Result From Analysis:
 - Patients in treatment group 'DRUG' has an overall positive response while the 'CONTROL' group responded poorly.
